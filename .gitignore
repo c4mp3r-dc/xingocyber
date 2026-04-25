@@ -1,0 +1,17 @@
+# Xingó Defense - Ignorar Segredos e Credenciais
+.xingo_credentials
+.env
+certs/
+*.pem
+*.key
+*.crt
+
+# Ignorar pastas de terceiros
+wazuh-docker/
+shuffle/
+iris-web/
+misp-docker/
+
+# Ignorar arquivos de log e backups
+*.log
+*.bak.*
